@@ -1,0 +1,33 @@
+.icon-bar {
+  width: 100%; 
+  background-color: rgb(255, 255, 255); 
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; 
+  width: 5%;
+  padding: 12px 0; 
+  color: #777; 
+  font-size: 36px; 
+}
+
+.icon-bar a:hover {
+  background-color: rgb(200, 200, 200); 
+}
+
+.active {
+  background-color: rgb(255, 255, 255); /* Add an active/current color */
+}
+
+div.scroll-container{
+  background-color: #ffffff;
+  overflow: auto;/*Untuk menambah scrollbar*/
+  white-space: nowrap;/*Mengontrol elemen harus tetap dalam satu baris*/
+  padding: 10px;
+}
+
+div.scroll-container img{
+  padding: 10px;
+}

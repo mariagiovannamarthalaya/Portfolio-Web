@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
+
+.icon-bar {
+  width: 100%; 
+  background-color: rgb(163, 14, 14); 
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; 
+  width: 5%;
+  padding: 12px 0; 
+  color: white; 
+  font-size: 36px; 
+}
+
+.icon-bar a:hover {
+  background-color: rgb(244, 98, 98); 
+}
+
+.active {
+  background-color: rgb(163, 14, 14); /* Add an active/current color */
+}
+
+body{
+  font-family: 'poppins',sans-serif;
+  margin: 0;
+}
+
+/*Fondasi dari seluruh pengaturan model kotak*/
+html{
+  box-sizing: border-box;
+}
+
+/*Membuat pengaturan border-box berlaku secara konsisten di seluruh halaman*/
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+.column{
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section{
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(163, 14, 14);
+  color: white;
+}
+
+.container{
+  padding: 0 16px;
+}
+/*Agar terdapat space di bagian bawah*/
+.container::after, .row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title{
+    color: gray;
+}
